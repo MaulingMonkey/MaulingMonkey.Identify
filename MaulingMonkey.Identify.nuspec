@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+	<metadata>
+		<id>MaulingMonkey.Identify</id>
+		<version>0.0.0</version>
+		<authors>MaulingMonkey</authors>
+		<owners>MaulingMonkey</owners>
+		<licenseUrl>https://github.com/MaulingMonkey/MaulingMonkey.Identify/blob/master/LICENSE.txt</licenseUrl>
+		<projectUrl>https://github.com/MaulingMonkey/MaulingMonkey.Identify/</projectUrl>
+		<requireLicenseAcceptance>true</requireLicenseAcceptance>
+		<description>MaulingMonkey's simplified .NET API for identifying users.</description>
+		<copyright>Copyright © MaulingMonkey 2017</copyright>
+		<tags>id identify</tags>
+	</metadata>
+	<files>
+		<file src="MaulingMonkey.Identify\bin\Release\**\*.*" target="lib\net45" />
+		<file src="MaulingMonkey.Identify\**\*.cs"             target="src"   />
+	</files>
+</package>

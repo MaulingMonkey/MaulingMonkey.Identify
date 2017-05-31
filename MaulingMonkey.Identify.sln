@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaulingMonkey.Identify", "MaulingMonkey.Identify\MaulingMonkey.Identify.csproj", "{453D666B-31B1-4957-BCFE-71B42947CBC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{588BCFA1-6090-48AD-A24B-D3CCE3D59A4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{30DEE038-2013-43E9-9921-555ADB57FDFD}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{ED5321A8-0B32-4EB8-8EEE-1288773DE014}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		MaulingMonkey.Identify.nuspec = MaulingMonkey.Identify.nuspec
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPage", "TestPage\TestPage.csproj", "{ED4F6646-C632-4963-BB39-171D7BB26443}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{453D666B-31B1-4957-BCFE-71B42947CBC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453D666B-31B1-4957-BCFE-71B42947CBC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{453D666B-31B1-4957-BCFE-71B42947CBC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453D666B-31B1-4957-BCFE-71B42947CBC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{588BCFA1-6090-48AD-A24B-D3CCE3D59A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{588BCFA1-6090-48AD-A24B-D3CCE3D59A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{588BCFA1-6090-48AD-A24B-D3CCE3D59A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{588BCFA1-6090-48AD-A24B-D3CCE3D59A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED4F6646-C632-4963-BB39-171D7BB26443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED4F6646-C632-4963-BB39-171D7BB26443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED4F6646-C632-4963-BB39-171D7BB26443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED4F6646-C632-4963-BB39-171D7BB26443}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
